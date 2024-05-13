@@ -1,3 +1,7 @@
+RENAME THE FOLDER INTO "SSG-Evoting"
+
 ADMINISTRATOR ACCOUNT
 username : administrator
 password : admin
+
+
