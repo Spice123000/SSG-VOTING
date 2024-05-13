@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Kaushan+Script&family=Lugrasimo&display=swap');
+.box-info{
+    height: 150px;
+}
+.pagination{
+    display: flex;
+    margin-top: 10px !important;
+}
+.pagination a{
+    color: white;
+    text-decoration: none;
+}
+.paginate_button{
+    list-style: none;
+    background: #6c757d;
+    border-radius: 10px;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    transition: 0.2s ease-in-out;
+}
+.paginate_button:hover{
+    cursor: pointer;
+    background: #42484d;
+}
+
+.dataTables_length{
+    margin-bottom: 5px;
+}
+.table th,td{
+    font-size: 12px;
+}
+
+
+
+.sidebar-link.active {
+    background: linear-gradient(90deg, rgba(59, 125, 221, .1), rgba(59, 125, 221, .088) 50%, transparent);
+    border-left-color: #3b7ddd;
+    color: #e9ecef;
+}
+
+.a-logos{
+    margin-bottom: -20px;
+}
+.a-logos img{
+    height: 40px;
+    margin-top: 20px;
+}
+
+.a-logos .ssg-logo{
+    height: 60px;
+    margin: 0 !important;
+}
+
+
+/* Modal styles */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    font-size: 17px;
+  }
+  .viewModal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    border-radius: 5px;
+
+  }
+  .deleteModal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 35%;
+    border-radius: 5px;
+
+
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.profile{
+    height: 200px;
+    width: 240px;
+    border-radius: 10px !important;
+}
+.detail-title{
+    font-weight: 900;
+    font-size: 15px;
+
+}
+.details{
+    font-size: 15px;
+}
+
+#mode-toggle{
+    height: 30px;
+    width: 70px;
+}
+
+.contents img{
+    height: 70px;
+}
+
+.voting-contents img{
+    height: 50px;
+}
+
+.voting-contents img:nth-child(2){
+    height: 100px;
+    margin-top: -55px;
+}
+
+.voting-contents h2{
+    font-family: "Bungee", sans-serif;
+    font-size: 70px;
+    text-shadow: 0 8px rgb(115, 115, 253);
+
+}
+
+.voting-contents h3{
+    font-family: "Bungee", sans-serif;
+    font-size: 70px;
+    text-shadow: 0 2px 10px rgb(115, 115, 253);
+
+}
+
+.contents h4{
+    font-family: "Kaushan Script", cursive;
+
+}
+
+.contents h2{
+    font-family: "Bungee", sans-serif;
+    font-size: 70px;
+    text-shadow: 0 8px rgb(115, 115, 253);
+}
+
+.contents img:nth-child(2){
+    height: 130px;
+    margin-top: -55px;
+}
+
+.running-candidates{
+    font-family: "Kaushan Script", cursive;
+   
+}
+
+.running-candidates img{
+    height: 200px;
+    width: 220px;
+}
+
+.running-candidates .card{
+    border: none;
+    overflow: hidden;
+    color: white;
+}
+
+.running-candidates .card-body{
+    padding: 0;
+}
+
+.running-candidates .card-body p{
+    background: gold;
+    width: 100%;
+    position: absolute;
+    margin-top: 100px;
+    font-size: 40px;
+    border: none;
+}
+
+
+.running-candidates a{
+    text-decoration: none;
+}
+
+.running-candidates .card-footer{
+    background: rgb(74, 74, 245);
+    text-decoration: none;
+
+}
+
+.running-candidates .card-footer span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+#access_code{
+    background: transparent;
+    width: 230px;
+}
+
+#access_code{
+    color: #3da3fc;
+}
+
+.reminder{
+    font-family: "Kaushan Script", cursive;
+
+}
+
+.voters-nav{
+    box-shadow: none !important;
+}
+
+.candidate-details img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.greetings h2{
+    font-family: "Kaushan Script", cursive;
+}
+
+.voting-reference h4{
+    font-family: "Kaushan Script", cursive;
+}
+
+  /* Light mode styles */
+  body.light-mode {
+    background-color: #f7f7f7;
+    color: #000;
+  }
+  /* Dark mode styles */
+  body.dark-mode {
+    background-color: rgb(3, 3, 49);
+    color: #f8f9fa;
+  }
+
+
+
+  @media only screen and (max-width: 752px) {
+    .contents h2{
+        font-size: 40px;
+        text-shadow: 0 5px rgb(115, 115, 253);
+    }
+    .voting-contents h2{ 
+        font-size: 40px;
+        text-shadow: 0 5px rgb(115, 115, 253);
+    }
+    .running-candidates .buttons{
+        margin-bottom: 50px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 600px) {
+    .contents h2{
+        font-size: 30px;
+        text-shadow: 0 4px rgb(115, 115, 253);
+
+    }
+    .voting-contents h2{ 
+        font-size: 30px;
+        text-shadow: 0 4px rgb(115, 115, 253);
+    }
+  }
